@@ -1,6 +1,6 @@
 *{padding: 0;
     margin: 0;
-    border: 0;}
+    }
     
     
     body {
@@ -82,13 +82,15 @@ ul{padding-left: 4.5rem;
 .map {
     width: 55vw;
 }
-.forma1 {
+.forma {
     padding: 1rem 4rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1,5rem;
+    border-bottom: 6px solid black;
 }
 h2{font-size: 2.5rem;
+    padding-bottom: 1.5rem;
     
 }
 
@@ -104,6 +106,37 @@ form {
     display: flex;
     flex-direction: column;
     padding: 1rem 4rem;
+    gap: 1rem;
 }
+p{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.5rem;
+    width: 40vw;
+}
+textarea {font-size: 1.5rem;
+width: 40vw;}
+
 .contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.photo{
+    width: 20vw;
+}
+h4{font-size: 2.3rem;
+align-self: center;}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
 }
